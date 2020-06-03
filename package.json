@@ -77,7 +77,7 @@
     "start": "node scripts/start.js",
     "build": "cross-env NODE_ENV=production node scripts/build.js",
     "dev": "node backend/server.js",
-    "postinstall": "npm run buildg"
+    "postinstall": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
